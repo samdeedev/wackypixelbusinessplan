@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wacky Pixels | Strategic Business Plan</title>
+    <style>
+        :root {
+            --primary: #6C63FF; /* Creative Purple */
+            --secondary: #00E5FF; /* Electric Cyan */
+            --bg-dark: #121212;
+            --bg-card: #1E1E1E;
+            --text-main: #E0E0E0;
+            --text-muted: #A0A0A0;
+            --font-main: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        /* Typography */
+        h1, h2, h3 {
+            color: #fff;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        h1 { font-size: 3rem; margin-bottom: 10px; }
+        h2 { font-size: 2rem; margin-bottom: 20px; border-left: 4px solid var(--primary); padding-left: 15px; }
+        h3 { font-size: 1.4rem; margin-bottom: 10px; color: var(--secondary); }
+        
+        p { margin-bottom: 15px; color: var(--text-muted); }
+        
+        strong { color: #fff; }
+
+        /* Layout */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(180deg, #1a1a2e 0%, #121212 100%);
+            border-bottom: 1px solid #333;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: var(--secondary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 50px 0;
+            border-bottom: 1px solid #2A2A2A;
+        }
+
+        /* Cards Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background-color: var(--bg-card);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #333;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(108, 99, 255, 0.15);
+            border-color: var(--primary);
+        }
+
+        /* Specific Styles */
+        .highlight-box {
+            background: rgba(108, 99, 255, 0.1);
+            border-left: 4px solid var(--primary);
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-right: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: var(--bg-card);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+
+        th {
+            background-color: #252525;
+            color: var(--secondary);
+        }
+
+        /* Buttons/CTA */
+        .btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #5a52d5;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2rem; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="tagline">Strategic Optimization Plan</div>
+        <h1>Wacky Pixels</h1>
+        <p>The Production Partner & Creative Ecosystem | Abuja</p>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>The Strategic Pivot</h2>
+            <p>We are shifting from a "Service Provider" model to an <strong>"Outcome Ecosystem."</strong> We do not sell simple videos; we sell brand authority, visibility, and cinematic experiences.</p>
+            
+            <div class="highlight-box">
+                <h3>The Core Advantage</h3>
+                <p>We own <strong>industry-standard production gear</strong>. We are the technical powerhouse. While we have a physical space, our competitive edge is not in facility rental, but in our ability to deploy high-end cinema production anywhere in Abuja—or create high-value content within our "Content Lab."</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>1. Commercial Ecosystem (The Bundles)</h2>
+            <p>Moving away from one-off projects to monthly retainers and bundled outcomes.</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>The Abuja Realtor Elite</h3>
+                    <span class="badge">Real Estate</span> <span class="badge">Personal Branding</span>
+                    <p><strong>The Problem:</strong> Agents have house tours, but no personal fame.</p>
+                    <p><strong>The Bundle:</strong></p>
+                    <ul>
+                        <li>2x High-end Property Cinematic Tours.</li>
+                        <li>4x "Expert Advice" Reels (Personal Branding).</li>
